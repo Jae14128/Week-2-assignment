@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+body{
+    background: ecf4fb;
+}
+
+.gallery{
+    width:80%;
+    margin:50px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px 1fr));
+    grid-gap:30px;
+}
+
+.gallery img{
+    width:100px;
+    cursor: pointer;
+    transition: 1s ease;
+}
+
+.gallery img:hover{
+transform: scale(0.9);
+}
+
+.Cafe-Items-gallery1{
+    width:10px;
+    height:15px;
+}
